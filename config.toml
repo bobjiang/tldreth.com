@@ -53,7 +53,7 @@ _merge = "none"
       name = "email" # may be omitted. defaults to key name
       icon = "envelope" # may be omitted. defaults to key name
       style = "fas" # may be omitted. default = "fas"
-      link = "mailto:hi@tldreth.com"
+      link = "https://forms.feedblitz.com/h1m"
     #[params.contact.mastodon]
     #  style = "fab" # may be omitted. default = "fas"
     #  link = "https://example.social/@jdoe"
