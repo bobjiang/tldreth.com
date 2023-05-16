@@ -13,7 +13,7 @@ editor = "nano"
 languageCode = "en"
 language = "en"
 theme = "vncnt-hugo"
-title = "TLDR; landing page"
+title = "TLDR; ETH newsletter"
 
 _merge = "none"
 
@@ -26,7 +26,7 @@ _merge = "none"
   # email does still work but is deprecated.
   # use [params.contact.email] instead.
   #email = "john.doe@example.com"
-  description = "Coming soon"
+  description = "TLDR; ETH is coming soon"
   bio = "Coming soon"
   avatar = "img/avatar.jpg"
   favicon = "img/favicon.ico"
@@ -34,9 +34,9 @@ _merge = "none"
 
   [params.contact]
     # the default fontawesome style in simple key-value pairs is "fab", i.e. brand icons
-    github = "https://github.com/tldreth.com"
+    github = "https://github.com/bobjiang/tldreth.com"
     #instagram = "https://instagram.com/jdoe"
-    #twitter = "https://twitter.com/jdoe"
+    twitter = "https://twitter.com/tldreth"
     
     # You may use (inline) tables for more versatility
     # This allows sorting and even more icons.
@@ -49,11 +49,11 @@ _merge = "none"
     #  icon = "hiking" # may be omitted. defaults to key name
     #  style = "fas" # may be omitted. default = "fas"
     #  link = "https://local-hiking.club"
-    #[params.contact.email]
-    #  name = "email" # may be omitted. defaults to key name
-    #  icon = "envelope" # may be omitted. defaults to key name
-    #  style = "fas" # may be omitted. default = "fas"
-    #  link = "mailto:john.doe@example.com"
+    [params.contact.email]
+      name = "email" # may be omitted. defaults to key name
+      icon = "envelope" # may be omitted. defaults to key name
+      style = "fas" # may be omitted. default = "fas"
+      link = "mailto:hi@tldreth.com"
     #[params.contact.mastodon]
     #  style = "fab" # may be omitted. default = "fas"
     #  link = "https://example.social/@jdoe"
