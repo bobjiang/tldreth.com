@@ -27,8 +27,8 @@ _merge = "none"
   # use [params.contact.email] instead.
   #email = "john.doe@example.com"
   description = "TLDR; ETH is coming soon"
-  bio = "Coming soon"
-  avatar = "img/avatar.jpg"
+  bio = "A valuable Ethereum summary"
+  avatar = "img/ethereum-logo.png"
   favicon = "img/favicon.ico"
   error404 = "There is no such page."
 
@@ -53,7 +53,7 @@ _merge = "none"
       name = "email" # may be omitted. defaults to key name
       icon = "envelope" # may be omitted. defaults to key name
       style = "fas" # may be omitted. default = "fas"
-      link = "https://forms.feedblitz.com/h1m"
+      link = "https://dashboard.mailerlite.com/forms/444116/88544302392673617/share"
     #[params.contact.mastodon]
     #  style = "fab" # may be omitted. default = "fas"
     #  link = "https://example.social/@jdoe"
