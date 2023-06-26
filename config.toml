@@ -37,6 +37,7 @@ _merge = "none"
     github = "https://github.com/bobjiang/tldreth.com"
     #instagram = "https://instagram.com/jdoe"
     twitter = "https://twitter.com/tldreth"
+    telegram = "https://t.me/tldreth"
     
     # You may use (inline) tables for more versatility
     # This allows sorting and even more icons.
